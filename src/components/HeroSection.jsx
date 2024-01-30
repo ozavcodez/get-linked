@@ -11,7 +11,7 @@ const HeroSection = () => {
                   before:bg-[#150E28] text-white italic sm:text-lg lg:text-4xl font-bold md:tracking-wide">
                     Igniting a  Revolution in HR Innovation 
                     <span className="flex justify-end"> 
-                        <img className="hidden lg:block" src="src/assets/images/hr-curve.png" alt="" />
+                        <img className="hidden lg:block" src="images/hr-curve.png" alt="" />
                         <img className="lg:hidden" src="src/assets/images/small-hr.png" alt="" />
                     </span>
                 </h1>
@@ -36,7 +36,7 @@ const HeroSection = () => {
                             <img src="src/assets/images/chain-header.png" alt="" />
                         </div>
                         <div className="w-8 h-8 lg:w-16 lg:h-16">
-                            <img src="src/assets/images/head-fire.png" alt="" />
+                            <img src="images/head-fire.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -49,16 +49,16 @@ const HeroSection = () => {
                     <button className="register text-white py-2 px-8 col-span-1 text-base ">Register</button>
                 </div>
                 <div className="flex justify-end">
-                    <img className="mr-20 animate-pulse" src="src/assets/images/gray-star.png" alt="" />
+                    <img className="mr-20 animate-pulse" src="images/gray-star.png" alt="" />
                 </div>
                 <p className="text-2xl  sm:text-4xl xl:text-7xl" id="demo"></p>
             </div>
             <div className="  relative flex overflow-hidden" >
                 <div >
-                    <img className="lg:h-[550px]" src="src/assets/images/man-white-shirt.png" alt="" />
+                    <img className="lg:h-[550px]" src="images/man-white-shirt.png" alt="" />
                 </div>
                 <div className="">
-                    <img className="absolute left-0 animate-wiggle transition duration-300 delay-150 " src="src/assets/images/bright-world.png" alt="" />
+                    <img className="absolute left-0 animate-wiggle transition duration-300 delay-150 " src="images/bright-world.png" alt="" />
                 </div>
             </div>
             
