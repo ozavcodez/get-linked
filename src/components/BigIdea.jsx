@@ -8,16 +8,16 @@ const BigIdea = () => {
             {/* <left child  */}
             
             <div className="relative" >
-                <img className="absolute left-0 animate-pulse" src="src/assets/images/starpurple.png" alt="" />
+                <img className="absolute left-0 animate-pulse" src="images/starpurple.png" alt="" />
                 <div className="w-full flex items-baseline">
-                    <img src="src/assets/images/the_big_idea.png" alt=""/>
-                    <img src="src/assets/images/arrow.png" alt=""/>
+                    <img src="images/the_big_idea.png" alt=""/>
+                    <img src="images/arrow.png" alt=""/>
                 </div>
             </div>
             
             {/* <!-- right child --> */}
             <div className="relative">
-            <img className="absolute right-0 animate-caret" src="src/assets/images/purplestar.png" alt="" />
+            <img className="absolute right-0 animate-caret" src="images/purplestar.png" alt="" />
 
                 <h4 className="title text-3xl"> Introduction to getlinked
                     <span>tech Hackathon 1.0</span>

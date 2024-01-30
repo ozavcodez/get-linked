@@ -12,28 +12,28 @@ const HeroSection = () => {
                     Igniting a  Revolution in HR Innovation 
                     <span className="flex justify-end"> 
                         <img className="hidden lg:block" src="images/hr-curve.png" alt="" />
-                        <img className="lg:hidden" src="src/assets/images/small-hr.png" alt="" />
+                        <img className="lg:hidden" src="images/small-hr.png" alt="" />
                     </span>
                 </h1>
                 <div>
-                    <img className="mt-10 lg:mt-0 ml-10 animate-pulse" src="src/assets/images/white-star.png" alt="" />
+                    <img className="mt-10 lg:mt-0 ml-10 animate-pulse" src="images/white-star.png" alt="" />
                 </div>
             </div>
         </div>
         <div className="lg:flex justify-between text-center lg:text-left lg:w-[95%] lg:ml-auto text-white">
             <div className="lg:mt-10">
                 <div className="flex justify-end">
-                    <img className="ml-10 animate-caret" src="src/assets/images/gray-star.png" alt="" />
+                    <img className="ml-10 animate-caret" src="images/gray-star.png" alt="" />
                 </div>
                 <div className="title text-2xl sm:text-4xl xl:text-7xl lg:mt-6 relative">
                     <div className=" ">
-                        <img className="absolute right-28 sm:right-48 md:right-48 lg:right-40 w-10 h-10 lg:h-12 lg:w-12 object-contain -top-10 " src="src/assets/images/light-header.png" alt=""/>
+                        <img className="absolute right-28 sm:right-48 md:right-48 lg:right-40 w-10 h-10 lg:h-12 lg:w-12 object-contain -top-10 " src="images/light-header.png" alt=""/>
                     </div>
                     <h2>getlinked Tech</h2>
                     <div className="flex justify-center lg:justify-start xl:gap-x-3 ">
                         <h2>Hackathon <span class="inline-flex text-[#D434FE]">1.0</span></h2>
                         <div className="w-8 h-8 lg:w-16 lg:h-16">
-                            <img src="src/assets/images/chain-header.png" alt="" />
+                            <img src="images/chain-header.png" alt="" />
                         </div>
                         <div className="w-8 h-8 lg:w-16 lg:h-16">
                             <img src="images/head-fire.png" alt="" />

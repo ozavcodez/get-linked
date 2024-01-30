@@ -4,10 +4,10 @@ const JudgingCriteria = () => {
             <div className="colo  w-[90%] mx-auto py-10">
                 {/*  first child  */}
                 <div className="">
-                    <img className=" animate-caret ml-40" src="src/assets/images/gray-star.png" alt="" />
+                    <img className=" animate-caret ml-40" src="images/gray-star.png" alt="" />
                     <div className="flex relative mt-10">
-                    <img src="src/assets/images/key-attributes.png" alt=""/>
-                    <img className=" absolute animate-caret top-1/2 left-2/3 -translate-x-2/3" src="src/assets/images/gray-star.png" alt="" />
+                    <img src="images/key-attributes.png" alt=""/>
+                    <img className=" absolute animate-caret top-1/2 left-2/3 -translate-x-2/3" src="images/gray-star.png" alt="" />
                     </div>
                     
                 </div>

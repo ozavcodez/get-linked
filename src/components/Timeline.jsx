@@ -20,7 +20,7 @@ const Timeline = () => {
                 </div>
                 
                 <ol className="relative timeline space-y-10 max-w-[1200px]" >
-                    <img className=" animate-caret ml-20" src="src/assets/images/starpurple.png" alt="" />
+                    <img className=" animate-caret ml-20" src="images/starpurple.png" alt="" />
 
                     {timelines.map((timeline) =>(
                         
@@ -34,8 +34,8 @@ const Timeline = () => {
                         
                     )
                     )}
-                    <img className=" animate-caret" src="src/assets/images/starpurple.png" alt="" />
-                    <img className=" animate-caret absolute right-40 top-1/2" src="src/assets/images/white-star.png" alt="" />
+                    <img className=" animate-caret" src="images/starpurple.png" alt="" />
+                    <img className=" animate-caret absolute right-40 top-1/2" src="images/white-star.png" alt="" />
 
                 </ol>
 

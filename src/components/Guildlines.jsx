@@ -4,7 +4,7 @@ const Guildlines = () => {
             <section className="border-b border-border bg-bg" >
                 <div className="colo w-[80%] mx-auto ">
                     <div className=" relative ">
-                        <img className="absolute -top-20 left-32 animate-caret" src="src/assets/images/gray-star.png" alt="" />
+                        <img className="absolute -top-20 left-32 animate-caret" src="images/gray-star.png" alt="" />
 
                         <h4 className="title text-3xl">Rules and
                             <span>Guidelines</span>
@@ -19,8 +19,8 @@ const Guildlines = () => {
                         </p>
                     </div>
                     <div className="flex relative " >
-                        <img className="absolute bottom-32 animate-pulse" src="src/assets/images/white-star.png" alt="" />
-                        <img  src="src/assets/images/guildlines-rules.png " alt=""/>
+                        <img className="absolute bottom-32 animate-pulse" src="images/white-star.png" alt="" />
+                        <img  src="images/guildlines-rules.png " alt=""/>
                     </div> 
                 </div>
             </section>

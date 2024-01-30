@@ -31,7 +31,7 @@ const Navbar = () => {
                         <button class="register text-white py-2 px-8 col-span-1 text-base ">Register</button>
                     </div>
                     <div className="lg:hidden cursor-pointer">
-                        <img src="src/assets/images/open-nav.png" alt=""/>
+                        <img src="images/open-nav.png" alt=""/>
                         <h2></h2>
                     </div>
                 </div>

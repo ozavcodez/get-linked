@@ -34,7 +34,7 @@ const Frq = () => {
             <section className="border-b border-border bg-bg">
                 <div className='colo  w-[80%] mx-auto py-10'>
                     <div>
-                        <img className=" animate-caret" src="src/assets/images/starpurple.png" alt="" />
+                        <img className=" animate-caret" src="images/starpurple.png" alt="" />
                         <h4 className='title text-3xl'>
                             Frequently Ask
                             <span>Question</span>
@@ -65,27 +65,27 @@ const Frq = () => {
                         <div className="relative flex md:mt-5 mb-20 ">
                             <div className="absolute flex min-[400px]:left-10 md:left-32 gap-14 ">
                                 <div className="mt-6 md:mt-10" >
-                                    <img className=" w-10 md:w-full" src="src/assets/images/quest-1.png" alt="" />
-                                    <img className=" animate-caret flex justify-center mt-20 " src="src/assets/images/sata-gra.png" alt="" />
+                                    <img className=" w-10 md:w-full" src="images/quest-1.png" alt="" />
+                                    <img className=" animate-caret flex justify-center mt-20 " src="images/sata-gra.png" alt="" />
                                 </div>
                                 <div class=" ">
-                                    <img className=" w-10 md:w-full" src="src/assets/images/quest-2.png" alt="" />
+                                    <img className=" w-10 md:w-full" src="images/quest-2.png" alt="" />
                                 </div>
                                 <div className="mt-6 md:mt-10" >
-                                    <img className=" w-10 md:w-full" src="src/assets/images/quest-1.png" alt="" />
+                                    <img className=" w-10 md:w-full" src="images/quest-1.png" alt="" />
                                 </div>
                             </div>
                             
                         </div>
                         <div className='flex justify-center'>
-                            <img className=" animate-caret flex justify-center" src="src/assets/images/sata-gra.png" alt="" />
+                            <img className=" animate-caret flex justify-center" src="images/sata-gra.png" alt="" />
                         </div>
-                        <img className=" animate-caret flex justify-center absolute md:bottom-72" src="src/assets/images/white-star.png" alt="" />
+                        <img className=" animate-caret flex justify-center absolute md:bottom-72" src="images/white-star.png" alt="" />
 
-                        <img src="src/assets/images/questioned-man.png" alt="" />
+                        <img src="images/questioned-man.png" alt="" />
 
                         <div className='flex justify-end'>
-                            <img className=" animate-caret " src="src/assets/images/white-star.png" alt="" />
+                            <img className=" animate-caret " src="images/white-star.png" alt="" />
                         </div>
 
                     </div>
