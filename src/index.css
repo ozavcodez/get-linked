@@ -1,0 +1,163 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&f[]=montserrat@500,1,900,700,701,801,200,401,301,400,601,100,101,2,201,800,300,600,501&display=swap"); 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{
+  font-weight: 400;
+  color:white;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 14px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.bg-img{
+  background-image: url(assets/images/Purple-Lens.png);
+  background-blend-mode: hard-light;
+  /* background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.title{
+  font-family: 'Clash Display', sans-serif; 
+  @apply font-bold text-white lg:leading-10 pb-3  text-xl md:text-3xl
+}
+.semi-title{
+font-family: 'Clash Display', sans-serif; 
+@apply font-semibold text-[#D434FE] lg:leading-10 pb-3
+}
+h4 span{
+  color: #D434FE;
+  @apply block
+}
+.colo{
+  @apply grid lg:grid-cols-2 gap-10 items-center justify-center
+}
+.flex-colo{
+  @apply flex flex-col justify-center items-center
+}
+input:focus,
+textarea:focus,
+select:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.transitions{
+  @apply transition duration-500 ease-in
+}
+.hoveres{
+  @apply hidden
+}
+.hovered:hover .hoveres{
+  @apply flex-colo
+}
+.register {
+  background: linear-gradient(90deg, #FE34B9, #FF26B9, #D434FE, #903AFF);
+  color: #fff;
+  border-radius: 5px;
+  /* border-image-slice: 1; */
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.register:hover {
+  border: 2px double transparent;
+  color: #fff;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #FE34B9, #FF26B9, #D434FE, #903AFF);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.accordion{
+  /* position: relative; */
+  width: 100%;
+  text-align: left;
+}
+.accordion:after {
+  content: '\002B';
+  color: #D434FE;
+  font-weight: bold;
+  float: right;
+  margin-right: 5px;
+}
+
+.accordion.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  color: white;
+  overflow: hidden;
+}
+
+/* the line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: #D434FE;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -3px;
+}
+/* the continer width */
+.cont{
+  @apply md:w-1/2 px-10 py-2.5 relative
+}
+
+/* the circles on the line */
+.cont span{
+  content: '';
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  z-index: 1;
+  @apply absolute h-10 w-10 ring-[#140D27] text-white  md:-right-5 rounded-[50%] bottom-0 ring-8
+}
+@media (max-width: 800px){
+  .cont span{
+    left:-20px;
+  }
+}
+
+.cont:nth-child(odd) {
+  left: 0;
+  text-align: left;
+}
+
+.cont:nth-child(even) {
+  left: 0;
+  text-align: left;
+}
+
+
+  @media (min-width: 1028px){
+    
+    .timeline::after {
+      left:50%
+    }
+    /* place the container to the left */
+    .cont:nth-child(odd) {
+      
+      text-align: right;
+    }
+    /* Place the container to the right */
+    .cont:nth-child(even) {
+      left: 50%;
+     
+    }
+    .cont:nth-child(even) span {
+      left: -18px;
+    }
+    .cont:nth-child(odd) time{
+      position:absolute;
+      left:40%;
+      width: 100%;
+      bottom:0;
+      text-align: right;
+      }
+      .cont:nth-child(even) time{
+      position:absolute;
+      right:40%;
+      width: 100%;
+      text-align: left;
+      /* margin-right:100px; */
+      bottom:0
+      }
+  }
