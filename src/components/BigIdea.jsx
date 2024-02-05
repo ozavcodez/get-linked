@@ -16,7 +16,7 @@ const BigIdea = () => {
             </div>
             
             {/* <!-- right child --> */}
-            <div className="relative">
+            <div className="relative text-center lg:text-left">
             <img className="absolute right-0 animate-caret" src="images/purplestar.png" alt="" />
 
                 <h4 className="title text-3xl"> Introduction to getlinked

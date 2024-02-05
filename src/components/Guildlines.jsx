@@ -3,10 +3,10 @@ const Guildlines = () => {
         <>
             <section className="border-b border-border bg-bg" >
                 <div className="colo w-[80%] mx-auto ">
-                    <div className=" relative ">
+                    <div className=" relative text-center lg:text-left ">
                         <img className="absolute -top-20 left-32 animate-caret" src="images/gray-star.png" alt="" />
 
-                        <h4 className="title text-3xl">Rules and
+                        <h4 className="title text-3xl ">Rules and
                             <span>Guidelines</span>
                         </h4>
                         <p className="text-white leading-8">

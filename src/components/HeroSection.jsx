@@ -20,7 +20,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
-        <div className="lg:flex justify-between text-center lg:text-left lg:w-[95%] lg:ml-auto text-white">
+        <div className="lg:flex justify-between text-center lg:text-left w-[95%] mx-auto lg:ml-auto text-white">
             <div className="lg:mt-10">
                 <div className="flex justify-end">
                     <img className="ml-10 animate-caret" src="images/gray-star.png" alt="" />

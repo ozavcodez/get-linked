@@ -2,6 +2,7 @@ import { Link, NavLink} from "react-router-dom";
 const Navbar = () => {
     const hover = " transitions text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-pinkpur via-main to-blues"
     const Hover =({isActive}) => (isActive ? 'hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-pinkpur via-main to-blues' : hover)
+    
     return ( 
         <>
             <header className="sticky top-0 z-20 border-b border-border bg-bg bg-img">

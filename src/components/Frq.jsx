@@ -8,34 +8,20 @@ const Frq = () => {
         {que:'What happens after the hackathon ends', ans:'lorem ipsum...', id:5},
         {que:'Can I work on a project I started before the hackathon?', ans:'lorem ipsum...', id:6},
     ];
-    // const Accordion = () => {
-            const [activeIndex, setActiveIndex] = useState(null);
-        
-            const handleAccordionClick = (id) => {
-            setActiveIndex((prevIndex) => (prevIndex === id ? null : id));
-        };
-    // }
-    // const acc = document.getElementsByClassName("accordion");
-    // var i;
+  
+    const [activeIndex, setActiveIndex] = useState(null);
 
-    // for (i = 0; i < acc.length; i++) {
-    // acc[i].addEventListener("click", function() {
-    //     this.classList.toggle("active");
-    //     var panel = this.nextElementSibling;
-    //     if (panel.style.display === "block") {
-    //     panel.style.display = "none";
-    //     } else {
-    //     panel.style.display = "block";
-    //     }
-    // });
-    // }
+    const handleAccordionClick = (id) => {
+    setActiveIndex((prevIndex) => (prevIndex === id ? null : id));
+    };
+   
     return ( 
         <>
             <section className="border-b border-border bg-bg">
                 <div className='colo  w-[80%] mx-auto py-10'>
                     <div>
                         <img className=" animate-caret" src="images/starpurple.png" alt="" />
-                        <h4 className='title text-3xl'>
+                        <h4 className='title text-3xl text-center lg:text-left'>
                             Frequently Ask
                             <span>Question</span>
                         </h4>
@@ -43,13 +29,13 @@ const Frq = () => {
                             We got answers to the questions that you might
                             want to ask about getlinked Hackathon 1.0
                         </p>
-                        {quests.map((quest) =>(
-                            <div className='text-white space-y-5 mt-10 leading-8' key={quest.id}>
+                        {quests.map(({id, que, ans}) =>(
+                            <div className='text-white space-y-5 mt-10 leading-8' key={id}>
                                 <div className="lg:w-[80%]">
                                     <div >
-                                        <button className={`accordion ${activeIndex === quest.id? 'active' : ''}`} onClick={() => handleAccordionClick(quest.id)}>{quest.que}</button>
-                                        <div className='panel' style={{ display: activeIndex === quest.id ? 'block' : 'none' }}>
-                                            <p>{quest.ans}</p>
+                                        <button className={`accordion ${activeIndex === id? 'active' : ''}`} onClick={() => handleAccordionClick(id)}>{que}</button>
+                                        <div className='panel' style={{ display: activeIndex === id ? 'block' : 'none' }}>
+                                            <p>{ans}</p>
                                         </div>
                                     </div>
                                     

@@ -6,6 +6,9 @@ import Navbar from "./components/Navbar";
 import Frq from "./components/Frq";
 import Timeline from "./components/Timeline";
 import Prizes from "./components/Prizes";
+import Partners from "./components/Partners";
+import PolicyTerms from "./components/PolicyTerms";
+import Footer from "./components/Footer";
 
 const Home = () => {
     return ( 
@@ -33,6 +36,15 @@ const Home = () => {
         </div>
         <div>
             <Prizes/>
+        </div>
+        <div>
+            <Partners/>
+        </div>
+        <div>
+            <PolicyTerms/>
+        </div>
+        <div>
+            <Footer/>
         </div>
         </>
      );

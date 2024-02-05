@@ -13,7 +13,7 @@ const JudgingCriteria = () => {
                 </div>
                 {/* second child */}
                 <div >
-                    <h4 className="title text-3xl">Judging Criteria
+                    <h4 className="title text-3xl text-center lg:text-left">Judging Criteria
                         <span>Key attributes</span>
                     </h4>
                     <div className="text-white leading-8 space-y-3">

@@ -20,7 +20,7 @@ body, html{
 }
 .title{
   font-family: 'Clash Display', sans-serif; 
-  @apply font-bold text-white lg:leading-10 pb-3  text-xl md:text-3xl
+  @apply font-bold text-white lg:leading-10 pb-3  text-xl md:text-3xl 
 }
 .semi-title{
 font-family: 'Clash Display', sans-serif; 
