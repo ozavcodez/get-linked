@@ -1,7 +1,7 @@
 import {useState} from 'react'
 const Frq = () => {
     const quests = [
-        {que:'Can I work on a project I started before the hackathon?', ans:'lorem ipsum...', id:1},
+        {que:'Can I work on a project I started before the hackathon?', ans:'zlorem ipsum...', id:1},
         {que:'What happens if I need help during the hackathon?', ans:'lorem ipsum...', id:2},
         {que:"What happens if I don't have an idea for a project?", ans:'lorem ipsum...', id:3},
         {que:'Can I join a team or do I have to come with one?', ans:'lorem ipsum...', id:4},
@@ -17,7 +17,7 @@ const Frq = () => {
    
     return ( 
         <>
-            <section className="border-b border-border bg-bg">
+            <section id="faq" className="border-b border-border bg-bg">
                 <div className='colo  w-[80%] mx-auto py-10'>
                     <div>
                         <img className=" animate-caret" src="images/starpurple.png" alt="" />

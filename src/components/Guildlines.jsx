@@ -1,7 +1,7 @@
 const Guildlines = () => {
     return ( 
         <>
-            <section className="border-b border-border bg-bg" >
+            <section id="over-view" className="border-b border-border bg-bg" >
                 <div className="colo w-[80%] mx-auto ">
                     <div className=" relative text-center lg:text-left ">
                         <img className="absolute -top-20 left-32 animate-caret" src="images/gray-star.png" alt="" />

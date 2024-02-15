@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
 
         </div>
-        <p className="text-center text-white pb-10">All rights reserved. © getlinked Ltd.</p>
+        <p className="text-center text-white py-10">All rights reserved. © getlinked Ltd.</p>
     </footer>
         </>
      );

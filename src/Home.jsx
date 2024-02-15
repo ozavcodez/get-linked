@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 const Home = () => {
     return ( 
         <>
-        <div >
+        <div className="sticky top-0 z-20">
             <Navbar/>
         </div>
         <div>
@@ -28,10 +28,10 @@ const Home = () => {
         <div>
             <JudgingCriteria/>
         </div>
-        <div>
+        <div >
             <Frq/>
         </div>
-        <div>
+        <div id="timeline">
             <Timeline/>
         </div>
         <div>
