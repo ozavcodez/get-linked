@@ -9,7 +9,7 @@ const Timeline = () => {
     ]
     return ( 
         <>
-        <section className="bg-[#140D27]">
+        <section  className="bg-[#140D27]">
             <div className="w-[80%] mx-auto py-10">
                 <div className="pb-5">
                     <h4 className="title text-3xl text-center">Timeline</h4>

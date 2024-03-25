@@ -9,7 +9,25 @@ const Navbar = () => {
     // const openNav = () => {
     //     setSideOpen((prev != prev) )
     // }
-
+    const links = [
+        {
+            name: "Timeline",
+            hash: "#timeline",
+        },
+        {
+            name: "Overview",
+            hash: "#overview",
+        },
+        {
+            name: "FAQS",
+            hash: "#faqs",
+        },
+        
+        {
+            name: "Contact",
+            hash: "contact",
+        },
+    ]
     return ( 
         <>
             <header className="sticky w-full top-0 z-20 border-b border-border bg-bg bg-img">
@@ -22,18 +40,15 @@ const Navbar = () => {
                     </div>
                     {/* menu  */}
                     <ul className="lg:col-span-3 hidden lg:flex gap-10 xl:gap-20  text-base">
-                        <NavLink to="" className={Hover}>
-                            <li>Timeline</li>
-                        </NavLink>
-                        <NavLink to="" className={Hover}>
-                            <li>Overview</li>
-                        </NavLink>
-                        <NavLink to="" className={Hover}>
-                            <li>FAQS</li>
-                        </NavLink>
-                        <NavLink to="/contact-us"  className={Hover}>
-                            <li>Contact</li>
-                        </NavLink>
+                        {links.map((link)=>(
+                            <li>
+                                <NavLink to={link.hash} className={Hover}>
+                                {link.name}
+                                </NavLink>
+                            </li>
+                        ))}
+                        
+                        
                     </ul>
                     <NavLink to="/register">
                         <div className="hidden lg:flex col-span-1">
@@ -56,7 +71,7 @@ const Navbar = () => {
                     </div>
                     <ul className="  clear-left ">
                         
-                        <NavLink  className={Hover}>
+                        <NavLink to="#timeline"  className={Hover}>
                             <li className="pt-5">Timeline</li>
                         </NavLink>
                         <NavLink  className={Hover}>
@@ -65,13 +80,16 @@ const Navbar = () => {
                         <NavLink className={Hover}>
                             <li className="pt-5">FAQS</li>
                         </NavLink>
-                        <NavLink    className={Hover}>
+                        <NavLink to="/contact"   className={Hover}>
                             <li className="pt-5">Contact</li>
                         </NavLink>
                     </ul>
-                    <div className="pt-5">
-                        <button class="register text-white py-2 px-8 col-span-1 text-base ">Register</button>
-                    </div>
+                    <NavLink to="/register">
+                        <div className="pt-5">
+                            <button class="register text-white py-2 px-8 col-span-1 text-base ">Register</button>
+                        </div>
+                    </NavLink>
+                    
                 </div>
             </aside>
         </>
