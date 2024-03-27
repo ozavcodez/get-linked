@@ -12,20 +12,20 @@ const Navbar = () => {
     const links = [
         {
             name: "Timeline",
-            hash: "#timeline",
+            hash: "/#timeline",
         },
         {
             name: "Overview",
-            hash: "#overview",
+            hash: "/#overview",
         },
         {
             name: "FAQS",
-            hash: "#faqs",
+            hash: "/#faq",
         },
         
         {
             name: "Contact",
-            hash: "contact",
+            hash: "/contact",
         },
     ]
     return ( 
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <ul className="lg:col-span-3 hidden lg:flex gap-10 xl:gap-20  text-base">
                         {links.map((link)=>(
                             <li>
-                                <NavLink to={link.hash} className={Hover}>
+                                <NavLink to={link.hash} >
                                 {link.name}
                                 </NavLink>
                             </li>
@@ -71,7 +71,7 @@ const Navbar = () => {
                     </div>
                     <ul className="  clear-left ">
                         
-                        <NavLink to="#timeline"  className={Hover}>
+                        <NavLink to="/#timeline"  className={Hover}>
                             <li className="pt-5">Timeline</li>
                         </NavLink>
                         <NavLink  className={Hover}>

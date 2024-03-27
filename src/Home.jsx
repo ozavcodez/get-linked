@@ -13,39 +13,17 @@ import Footer from "./components/Footer";
 const Home = () => {
     return ( 
         <>
-        <div className="sticky top-0 z-20">
             <Navbar/>
-        </div>
-        <div>
             <HeroSection/>
-        </div>
-        <div>
             <BigIdea/>
-        </div>
-        <div>
             <Guildlines/>
-        </div>
-        <div>
             <JudgingCriteria/>
-        </div>
-        <div >
             <Frq/>
-        </div>
-        <div id="timeline">
             <Timeline/>
-        </div>
-        <div>
             <Prizes/>
-        </div>
-        <div>
             <Partners/>
-        </div>
-        <div>
             <PolicyTerms/>
-        </div>
-        <div>
             <Footer/>
-        </div>
         </>
      );
 }

@@ -8,8 +8,7 @@ const Timeline = () => {
         {title:'Demo Day', body:'Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day', time:'November 18, 2023', id:6},
     ]
     return ( 
-        <>
-        <section  className="bg-[#140D27]">
+        <section  className="bg-[#140D27] " id="timeline" >
             <div className="w-[80%] mx-auto py-10">
                 <div className="pb-5">
                     <h4 className="title text-3xl text-center">Timeline</h4>
@@ -42,7 +41,6 @@ const Timeline = () => {
             </div>
             
         </section>
-        </>
      );
 }
  
